@@ -22,6 +22,6 @@ c = a - b
 print ( c)
 
 plt.quiver ( c[0],c[1] , angles='xy' , scale_units='xy' , scale=1, color="red" )
-plt.text ( c[0],c[1] , r'$\vec{c}$' , size=25 )
+plt.text ( c[0],c[1] , r'$\vec{a-b}$' , size=25 )
 
 plt.show()
